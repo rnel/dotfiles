@@ -1,0 +1,21 @@
+[user]
+	name = Arnel Aguinaldo
+	email = arnel.aguinaldo@rga.com
+[color]
+	ui = auto
+[alias]
+	st = status
+	ci = commit
+	br = branch
+	co = checkout
+	df = diff
+	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --date=relative
+[core]
+	excludesfile = ~/.gitignore
+	editor = mate -w
+	autocrlf = input
+	safecrlf = true
+[merge]
+	tool = opendiff
+[diff]
+	tool = opendiff
