@@ -1,0 +1,34 @@
+[ui]
+username = Arnel Aguinaldo <arnel.aguinaldo@rga.com>
+#merge = opendiff
+
+[alias]
+ci = commit
+st = status
+co = checkout
+br = branch
+llog = log --limit 10 --graph
+
+[ui]
+ignore = ~/.hgignore
+
+[color]
+status.modified = magenta bold
+status.added = green bold
+status.removed = red bold
+status.deleted = cyan bold
+status.unknown = blue bold
+status.ignored = black bold
+
+[hostfingerprints]
+fogbugz.rga.com = 86:a9:f6:6e:b9:5e:ca:49:31:08:6f:32:56:eb:0b:f5:84:12:68:7a
+
+[extensions]
+color =
+hgext.mq =
+hgext.fetch =
+kilnauth = ~/Development/Tools/kiln_extensions/kilnauth.py
+
+[auth]
+kiln.prefix = fogbugz.rga.com
+kiln.username = arnel.aguinaldo@rga.com

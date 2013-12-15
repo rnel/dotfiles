@@ -1,4 +1,7 @@
-!/.gitignore
+# use glob syntax.
+syntax: glob
+
+!/.hgignore
 !/Library/
 !/README.md
 !/bin/brew
@@ -26,4 +29,3 @@ build/
 # Xcode 4
 xcuserdata/
 project.xcworkspace/
-contents.xcworkspacedata
