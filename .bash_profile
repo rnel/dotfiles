@@ -2,7 +2,7 @@ PATH="/usr/local/bin:/opt/local/bin:/opt/bin:/usr/local/share/npm/bin:$PATH"
 export CLICOLOR=1
 
  # Load RVM into a shell session *as a function*
-[[ -s "/Users/arnela/.rvm/scripts/rvm" ]] && source "/Users/arnela/.rvm/scripts/rvm"
+[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 if [ -f /usr/local/etc/bash_completion.d/git-completion.bash ]; then
     . /usr/local/etc/bash_completion.d/git-completion.bash
@@ -13,7 +13,7 @@ fi
 . /usr/local/etc/bash_completion.d/git-prompt.sh
 #fi
 
-. /Users/arnela/Development/Tools/z/z.sh
+. $HOME/Development/Tools/z/z.sh
 
 # Go paths
 export GOPATH=$HOME/Development/goworkspace
