@@ -14,3 +14,7 @@ fi
 #fi
 
 . /Users/arnela/Development/Tools/z/z.sh
+
+# Go paths
+export GOPATH=$HOME/Development/goworkspace
+export PATH=$PATH:$GOPATH/bin
