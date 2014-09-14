@@ -14,3 +14,7 @@ fi
 #fi
 
 . $HOME/Development/Tools/z/z.sh
+
+# Go paths
+export GOPATH=$HOME/Development/goworkspace
+export PATH=$PATH:$GOPATH/bin
