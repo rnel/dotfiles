@@ -18,3 +18,6 @@ fi
 # Go paths
 export GOPATH=$HOME/Development/goworkspace
 export PATH=$PATH:$GOPATH/bin
+
+export PATH=$PATH:~/.composer/vendor/bin
+
