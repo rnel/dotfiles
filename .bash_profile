@@ -22,9 +22,12 @@ export PATH=$PATH:$GOPATH/bin
 # PHP composer path
 export PATH=$PATH:~/.composer/vendor/bin
 
+# MySQL
+export PATH="/usr/local/mysql/bin:$PATH"
+
 export PATH="/usr/local/sbin:$PATH"
 
-export NVM_DIR="/Users/arnelaguinaldo/.nvm"
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 alias myip="ifconfig | grep 'inet ' | grep -v 127.0.0.1 | cut -d\  -f2"
